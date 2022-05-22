@@ -1,0 +1,8 @@
+dataset/charYelp_train filter=lfs diff=lfs merge=lfs -text
+dataset/charYelp_validation_medium filter=lfs diff=lfs merge=lfs -text
+models/SST_cp0.pt filter=lfs diff=lfs merge=lfs -text
+models/yelp4_cp13.pt filter=lfs diff=lfs merge=lfs -text
+models/yelp6_cp04.pt filter=lfs diff=lfs merge=lfs -text
+models/yelp6_cp12.pt filter=lfs diff=lfs merge=lfs -text
+dataset filter=lfs diff=lfs merge=lfs -text
+models filter=lfs diff=lfs merge=lfs -text
